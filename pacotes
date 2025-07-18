@@ -1,0 +1,11 @@
+pip install poetry
+pip install fastapi pydantic seaborn scikit-learn numpy pandas uvicorn
+pip install mlflow
+pip install pytest
+
+
+poetry add fastapi
+poetry add pydantic seaborn scikit-learn numpy pandas uvicorn
+poetry add --dev pytest 
+poetry add httpx
+poetry add mlflow 
